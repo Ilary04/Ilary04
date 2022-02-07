@@ -1,0 +1,35 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    color: DarkCyan;
+}
+
+section {
+    text-align: center;
+}
+
+.campo--gioco {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    width: 486px;
+    margin: 50px auto;
+}
+
+.cella {
+    border-radius:50%;
+    border:5px solid #000;
+    margin:auto;
+    /*color: yellow;  // 'spento' colore giallo caratteri, riprende il colore del body*/ 
+    line-height:50px;
+    text-align:center;
+    
+    font-family: "Permanent Marker", cursive;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #226633;
+    background: Blue;
+    cursor: pointer;
+
+    line-height: 100px; /* si riferisce all'altezza della riga 'testo' ovvero delle 'X' e delle 'O' */
+    font-size: 60px;
+}
